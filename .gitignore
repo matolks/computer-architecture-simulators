@@ -1,0 +1,11 @@
+# Ignore everything in branch-predictors
+branch-predictors/*
+
+# Banish
+.DS_Store
+
+# Keep predictors and graph
+!branch-predictors/
+!branch-predictors/graph.png
+!branch-predictors/Custom.py
+!branch-predictors/GShare.py
